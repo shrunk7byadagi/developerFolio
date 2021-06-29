@@ -165,7 +165,7 @@ const workExperiences = {
     {
       role: "Solution Integrator",
       company: "Ericsson",
-      companylogo: require("./assets/images/ericsson.png"),
+      companylogo: require("./assets/images/ericsson.jpeg"),
       date: "Sep 2018 - Nov 2019",
       desc: "Developed IoT platform for T-Mobile USA",
       descBullets: [
