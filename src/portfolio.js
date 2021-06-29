@@ -149,29 +149,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Developer",
+      company: "Finflux",
+      companylogo: require("./assets/images/finflux-one.png"),
+      date: "Dec 2019 – Present",
+      desc: "Worked as a full stack developer ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and Developed Notification Framework",
+        "Integrated CRIF highmark sync based credit bureau enquiry API",
+        "Integrated AADHAAR datavault with underlying loan origination system",
+        "Created a custom CI/CD pipeline using Jenkins and Docker",
+        "Implemented Knowlarity IVR outbound call integration"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Solution Integrator",
+      company: "Ericsson",
+      companylogo: require("./assets/images/ericsson.jpeg"),
+      date: "Sep 2018 - Nov 2019",
+      desc: "Developed IoT platform for T-Mobile USA",
+      descBullets: [
+        "Involved in developing REST API for multiple components (Micro-services)",
+        "Managed 2 interns and 3 Junior software professionals during the tenure of this project",
+        "Involved in requirement gathering and Documented API specs for the same",
+        "Created Automated deployment system for daily builds"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Java Developer",
+      company: "Hp",
+      companylogo: require("./assets/images/hp.jpeg"),
+      date: "Nov 2017 - May 2018"
     }
   ]
 };
