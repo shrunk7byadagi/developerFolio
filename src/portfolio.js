@@ -294,5 +294,8 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  contactInfo
+  talkSection,
+  podcastSection,
+  contactInfo,
+  twitterDetails
 };
