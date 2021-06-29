@@ -153,7 +153,7 @@ const workExperiences = {
       company: "Finflux",
       companylogo: require("./assets/images/finflux-one.png"),
       date: "Dec 2019 – Present",
-      desc: "Worked as a full stack developer ",
+      desc: "Customized Loan Management System",
       descBullets: [
         "Designed and Developed Notification Framework",
         "Integrated CRIF highmark sync based credit bureau enquiry API",
@@ -179,7 +179,11 @@ const workExperiences = {
       role: "Java Developer",
       company: "Hp",
       companylogo: require("./assets/images/hp.jpeg"),
-      date: "Nov 2017 - May 2018"
+      date: "Nov 2017 - May 2018",
+      desc: "Developed Predictive Press Care Solution for HP presses",
+      descBullets: [
+        "A robust, flexible technology platform PWP HP presses which are located across the globe to make sure they are up and running for 24/7. This application will predict and report the issues before it causes damage to the presses."
+      ]
     }
   ]
 };
