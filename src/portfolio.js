@@ -165,7 +165,7 @@ const workExperiences = {
     {
       role: "Solution Integrator",
       company: "Ericsson",
-      companylogo: require("./assets/images/ericsson.jpeg"),
+      companylogo: require("./assets/images/eric.png"),
       date: "Sep 2018 - Nov 2019",
       desc: "Developed IoT platform for T-Mobile USA",
       descBullets: [
@@ -222,7 +222,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
