@@ -102,13 +102,13 @@ const educationInfo = {
     {
       schoolName: "Acharya Institute of Technology",
       logo: require("./assets/images/acharya.jpeg"),
-      subHeader: "Master of Science in Computer Science",
+      subHeader: "Master of Technology in Computer Science",
       duration: "2014 - 2016"
     },
     {
       schoolName: "Dr.P G H College of Engineering",
       logo: require("./assets/images/bldea.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Bachelor of Engineering in Computer Science",
       duration: "2010 - 2014"
     }
   ]
@@ -151,27 +151,35 @@ const workExperiences = {
     {
       role: "Full Stack Developer",
       company: "Finflux",
-      companylogo: require("./assets/images/finflux.png"),
+      companylogo: require("./assets/images/finflux-one.png"),
       date: "Dec 2019 – Present",
       desc: "Worked as a full stack developer ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and Developed Notification Framework",
+        "Integrated CRIF highmark sync based credit bureau enquiry API",
+        "Integrated AADHAAR datavault with underlying loan origination system",
+        "Created a custom CI/CD pipeline using Jenkins and Docker",
+        "Implemented Knowlarity IVR outbound call integration"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Solution Integrator",
+      company: "Ericsson",
+      companylogo: require("./assets/images/ericsson.png"),
+      date: "Sep 2018 - Nov 2019",
+      desc: "Developed IoT platform for T-Mobile USA",
+      descBullets: [
+        "Involved in developing REST API for multiple components (Micro-services)",
+        "Managed 2 interns and 3 Junior software professionals during the tenure of this project",
+        "Involved in requirement gathering and Documented API specs for the same",
+        "Created Automated deployment system for daily builds"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Java Developer",
+      company: "Hp",
+      companylogo: require("./assets/images/hp.jpeg"),
+      date: "Nov 2017 - May 2018"
     }
   ]
 };
@@ -227,49 +235,16 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google Code-In Mentor",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Served as google code-in mentor for Mifos Organisation during 2016",
       image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Ericsson Spot Award",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+        "Implemented 20 APIs and resolved more than 25+ production issues in 3 weeks",
+      image: require("./assets/images/ericsson.jpeg"),
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -284,49 +259,15 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@shrunk7byadagi/automatically-start-tomcat-on-instance-startup-reboot-in-amazon-ec2-ubuntu-instance-33849a9d9090",
+      title: "Automatically start Tomcat on instance startup/reboot in Amazon EC2-Instance",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Start you tomcat automatically on instance re-boot"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://medium.com/the-angular-dark-secrets/lazy-loading-in-angular-7-vs-angular-8-62e3a6d5cbc1",
+      title: "Lazy Loading in Angular 7 Vs Angular 8"
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -335,16 +276,11 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9972423247",
+  email_address: "shrunk7byadagi@gmail.com"
 };
 
-// Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
 
 export {
   illustration,
@@ -358,8 +294,5 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  talkSection,
-  podcastSection,
-  contactInfo,
-  twitterDetails
+  contactInfo
 };
