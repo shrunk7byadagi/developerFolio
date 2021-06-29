@@ -228,12 +228,24 @@ const achievementSection = {
     {
       title: "Google Code-In Mentor",
       subtitle: "Served as google code-in mentor for Mifos Organisation during 2016",
-      image: require("./assets/images/codeInLogo.webp")
+      image: require("./assets/images/codeInLogo.webp"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "#"
+        }
+      ]
     },
     {
       title: "Ericsson Spot Award",
       subtitle: "Implemented 20 APIs and resolved more than 25+ production issues in 3 weeks",
-      image: require("./assets/images/ericsson.jpeg")
+      image: require("./assets/images/ericsson.jpeg"),
+      footerLink: [
+        {
+          name: "Award",
+          url: "#"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
