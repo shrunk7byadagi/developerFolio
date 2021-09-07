@@ -125,7 +125,7 @@ const techStack = {
     },
     {
       Stack: "Spring-Boot",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Angular-Js", //Insert stack or technology you have experience in
@@ -134,10 +134,6 @@ const techStack = {
     {
       Stack: "Angular-11", //Insert stack or technology you have experience in
       progressPercentage: "45%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -278,6 +274,10 @@ const blogSection = {
     {
       url: "https://medium.com/the-angular-dark-secrets/lazy-loading-in-angular-7-vs-angular-8-62e3a6d5cbc1",
       title: "Lazy Loading in Angular 7 Vs Angular 8"
+    },
+    {
+      url: "https://medium.com/@shrunk7byadagi/what-is-credit-report-what-is-its-importance-af016dc7a2d1",
+      title: "What is Credit Report & What is its Importance ?"
     }
   ],
   display: true // Set false to hide this section, defaults to true
