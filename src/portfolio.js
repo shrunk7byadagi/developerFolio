@@ -240,7 +240,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "#"
+          url: "https://drive.google.com/file/d/1wVScxV7HKHUiZtvUPpe68ENHTm0XHfvO/view?usp=sharing"
         }
       ]
     },
